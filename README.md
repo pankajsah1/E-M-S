@@ -4,22 +4,21 @@ A simple Employee Management System built with **React.js** to strengthen my und
 
 ## 🚀 Features
 
-- 🔐 Role-based Login Authentication
-- 👨‍💼 Admin Dashboard
-- 👨‍💻 Employee Dashboard
-- 📝 Admin can assign tasks to employees
-- 📊 Employees can view their assigned tasks
-- 💾 Local Storage-based authentication and data persistence
-- ⚡ Context API for global state management
-- 🎨 Responsive and clean user interface
+-  Role-based Login Authentication
+-  Admin Dashboard
+-  Employee Dashboard
+-  Admin can assign tasks to employees
+-  Employees can view their assigned tasks
+-  Local Storage-based authentication and data persistence
+-  Context API for global state management
+-  Responsive and clean user interface
 
 ## 🛠️ Tech Stack
 
 - React.js
 - Context API
 - JavaScript (ES6+)
-- HTML5
-- CSS3
+- Tailwind CSS
 - Local Storage
 
 ## 📂 Project Overview
@@ -55,17 +54,6 @@ The primary goal of building this project was to enhance my React.js fundamental
 - Local Storage
 - Reusable UI components
 
-## 📁 Folder Structure
-
-```bash
-src/
-│── components/
-│── context/
-│── utils/
-│── App.jsx
-│── main.jsx
-```
-
 ## 🔑 Authentication
 
 The project uses Local Storage to store user credentials and login information.
@@ -74,14 +62,6 @@ Different dashboards are rendered depending on the logged-in user's role:
 
 - Admin
 - Employee
-
-## 📸 Screenshots
-
-> Add screenshots of:
-- Login Page
-- Admin Dashboard
-- Employee Dashboard
-- Task Assignment Screen
 
 ## 🔮 Future Improvements
 
@@ -95,32 +75,6 @@ Different dashboards are rendered depending on the logged-in user's role:
 - Search and filtering
 - Notifications
 - Responsive improvements
-
-## ▶️ Getting Started
-
-Clone the repository
-
-```bash
-git clone https://github.com/your-username/Employee-Management-System.git
-```
-
-Navigate to the project folder
-
-```bash
-cd Employee-Management-System
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Run the development server
-
-```bash
-npm run dev
-```
 
 ## 📚 What I Learned
 
