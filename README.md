@@ -1,16 +1,145 @@
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Employee Management System built with **React.js** to strengthen my understanding of React concepts and improve my problem-solving and state management skills. This project focuses on implementing role-based authentication and task management using React's Context API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔐 Role-based Login Authentication
+- 👨‍💼 Admin Dashboard
+- 👨‍💻 Employee Dashboard
+- 📝 Admin can assign tasks to employees
+- 📊 Employees can view their assigned tasks
+- 💾 Local Storage-based authentication and data persistence
+- ⚡ Context API for global state management
+- 🎨 Responsive and clean user interface
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Context API
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Local Storage
 
-## Expanding the ESLint configuration
+## 📂 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application uses email and password authentication, where user credentials are stored in the browser's **Local Storage**.
+
+After a successful login, the application automatically redirects users based on their role:
+
+### Admin
+
+- Login as an Admin
+- View the Admin Dashboard
+- Assign new tasks to employees
+
+### Employee
+
+- Login as an Employee
+- Access the Employee Dashboard
+- View assigned tasks
+
+The project demonstrates how Context API can be used for managing global application state without external state management libraries.
+
+## 🎯 Purpose of the Project
+
+The primary goal of building this project was to enhance my React.js fundamentals and improve my logical thinking while working with:
+
+- Component-based architecture
+- State management
+- Context API
+- Props and component communication
+- Conditional rendering
+- Authentication flow
+- Local Storage
+- Reusable UI components
+
+## 📁 Folder Structure
+
+```bash
+src/
+│── components/
+│── context/
+│── utils/
+│── App.jsx
+│── main.jsx
+```
+
+## 🔑 Authentication
+
+The project uses Local Storage to store user credentials and login information.
+
+Different dashboards are rendered depending on the logged-in user's role:
+
+- Admin
+- Employee
+
+## 📸 Screenshots
+
+> Add screenshots of:
+- Login Page
+- Admin Dashboard
+- Employee Dashboard
+- Task Assignment Screen
+
+## 🔮 Future Improvements
+
+- Backend integration (Node.js + Express)
+- MongoDB database
+- JWT Authentication
+- Password hashing
+- CRUD operations for employees
+- Edit/Delete tasks
+- Task status updates
+- Search and filtering
+- Notifications
+- Responsive improvements
+
+## ▶️ Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/Employee-Management-System.git
+```
+
+Navigate to the project folder
+
+```bash
+cd Employee-Management-System
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+## 📚 What I Learned
+
+While building this project, I gained hands-on experience with:
+
+- React Hooks
+- Context API
+- State lifting
+- Component composition
+- Authentication logic
+- Local Storage
+- Conditional Rendering
+- React project structure
+- Managing application flow based on user roles
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feedback are always welcome.
+
+## 📄 License
+
+This project is created for learning purposes.
